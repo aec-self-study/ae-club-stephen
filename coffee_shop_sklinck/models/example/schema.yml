@@ -34,7 +34,7 @@ version: 2
  
 sources:
   - name: coffee_shop
-    project: coffee_shop_sklinck
+    project: aec_students
     tables:
       - name: customers
         columns:
