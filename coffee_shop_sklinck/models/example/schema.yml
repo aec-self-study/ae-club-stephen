@@ -30,3 +30,22 @@ models:
         tests:
           - unique
           - not_null
+version: 2
+ 
+sources:
+  - name: coffee_shop
+    project: coffee_shop_sklinck
+    tables:
+      - name: customers
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+ 
+      - name: orders
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
