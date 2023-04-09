@@ -1,4 +1,4 @@
-{% docs table_events %}
+{% docs test_doc %}
 
 This table contains clickstream events from the marketing website.
 
